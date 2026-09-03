@@ -1,0 +1,6 @@
+{
+  "name": "ქორწილის მოსაწვევი - ნინო და გიორგი",
+  "description": "ელეგანტური და ინტერაქტიული ქორწილის მოსაწვევი ქართულ ენაზე, მუსიკით, განრიგით, ფოტო გალერეითა და სტუმრების სურვილებით.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
