@@ -98,7 +98,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           id="hero-customize-button"
           type="button"
           onClick={onOpenEdit}
-          className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/80 hover:bg-white text-[#8d7770] hover:text-[#5d4037] text-xs font-sans border border-[#fbcfe8] shadow-sm transition-all hover:border-[#d4af37]"
+          className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/80 hover:bg-white text-[#8d7770] hover:text-[#5d4037] text-xs font-sans border border-[#fbcfe8] shadow-xs transition-all hover:border-[#d4af37]"
         >
           <Sparkles className="w-3.5 h-3.5 text-[#d4af37]" />
           <span>მონაცემების რედაქტირება</span>
@@ -108,7 +108,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           id="hero-share-button"
           type="button"
           onClick={handleShare}
-          className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/80 hover:bg-white text-[#8d7770] hover:text-[#5d4037] text-xs font-sans border border-[#fbcfe8] shadow-sm transition-all hover:border-[#d4af37]"
+          className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/80 hover:bg-white text-[#8d7770] hover:text-[#5d4037] text-xs font-sans border border-[#fbcfe8] shadow-xs transition-all hover:border-[#d4af37]"
         >
           {copied ? (
             <>
